@@ -1,0 +1,62 @@
+
+body, html {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.botaoPesquisa {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  padding: 20px;
+  width: 300px;
+  height: 40px; 
+  background-color: grey;
+  border: none; 
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  color: black;
+  cursor: pointer;
+}
+
+.header img {
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+}
+
+.pagina1 {
+  background-color: green !important; 
+  width: 800px;
+  height: auto; 
+  margin: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px; 
+  align-items: center;
+}
+
+
+.botoes2 {
+  display: flex;
+  gap: 12px;
+  background-color: transparent !important;
+  background: none !important;
+}
+
+.botoes2 button {
+  display: inline-flex;
+  background-color: transparent !important; 
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+}
